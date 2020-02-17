@@ -1,11 +1,24 @@
-header{
-    height: 64px;
-    border-bottom: 1px solid black;
-    background-color: whitesmoke;
+
+/*HTML COMPLETE ELEMENT*/
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 
+
 /* THE LOGO HEADER IN DESKTOP*/
+
+header{
+    height: 64px;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+
 
 .logo_header {
     float: left;
@@ -29,7 +42,10 @@ img {
 
 #academy {
     float: right;
+    font-weight: lighter;
 }
+
+
 
 /* NAVBAR FROM DESKTOP */
 nav {
@@ -42,7 +58,35 @@ a {
     padding: 8px;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+
+
+/*ARTICLE ONE*/
+
+section {
+    position: relative;
+    top: 42px;
+}
+
+.article_one{
+    background-color: lightgray;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    top: 22px;
+    text-align: left;
+    float: left;
+    height: auto;
+    font-size: 24px;
+}
+
+.img_art_one{
+    max-width: 60%;
+    padding: 32px 24px;
+}
+
+.text_art_one {
+    position: relative;
+    vertical-align: middle;
+    padding: 9% 24px;
+    font-size: 2vw;
 }
