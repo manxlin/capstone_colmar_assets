@@ -62,31 +62,134 @@ a {
 
 /*ARTICLE ONE*/
 
-section {
-    position: relative;
-    top: 42px;
-}
 
 .article_one{
     background-color: lightgray;
     box-sizing: border-box;
     width: 100%;
     position: relative;
-    top: 22px;
+    top: auto;
     text-align: left;
     float: left;
     height: auto;
     font-size: 24px;
+    top: 42px;
+    z-index: 1;
+}
+
+section div {
+    float: left;
+}
+
+
+.column_6 {
+    width: 60%;
+    height: 100%;
+    display: block;
+}
+
+.column_4 {
+    width: 40%;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
 }
 
 .img_art_one{
-    max-width: 60%;
+    max-width: 100%;
     padding: 32px 24px;
 }
 
 .text_art_one {
+    padding: 9%;
+    margin: 24px;
+    font-size: 2vw;
+}
+
+
+
+/*ARTICLE TWO*/
+
+.article_two {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    top: auto;
+    text-align: left;
+    float: left;
+    font-size: 24px;
+}
+
+.img_art_two {
+    max-width: 100%;
+    position: relative;
+    top: 48px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+    padding-right: 10.5px;
+    border-right: gray 1px solid;
+}
+
+
+.text_down_art_two {
+    position: relative;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.text_down_art_two h2 {
+    padding-bottom: 24px;
+}
+
+cite{
+    font-style: italic;
+}
+
+
+.three_rows {
     position: relative;
     vertical-align: middle;
-    padding: 9% 24px;
-    font-size: 2vw;
+    padding: 2%;
+    margin: 24px;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.img_35 {
+    width: 35%;
+    padding: 16px;
+}
+
+.img_35 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.first_row {
+    position: relative;
+    top: 24px;
+    padding: 8px;
+    display: inline-block;
+}
+
+.second_row,
+.third_row {
+    padding: 8px;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+}
+
+.third_row {
+    background-color: gray;
+}
+
+.orientation {
+    float: left;
 }
