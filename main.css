@@ -68,7 +68,6 @@ a {
     box-sizing: border-box;
     width: 100%;
     position: relative;
-    top: auto;
     text-align: left;
     float: left;
     height: auto;
@@ -181,7 +180,6 @@ cite{
 .second_row,
 .third_row {
     padding: 8px;
-    position: relative;
     display: inline-block;
     top: 0px;
 }
@@ -192,4 +190,91 @@ cite{
 
 .orientation {
     float: left;
+}
+
+/* ARTICLE THREE */
+
+.column_33 {
+    width: 33%;
+    height: auto;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    top: auto;
+    text-align: left;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.cell_33 {
+    /*padding: 32px;*/
+    position: relative;
+    top: auto;
+
+}
+
+
+.article_three img {
+    width: 100%;
+    /*border-bottom: 1.5px solid gray;*/
+}
+
+
+/*.start_learning {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+*/
+
+.article_three {
+    background-color: lightgray;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    float: left;
+    height: auto;
+    font-size: 24px;
+    top: 42px;
+    z-index: 2;
+}
+
+.section {
+    background-color: gray;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.cell_2_33 {
+    padding: 32px;
+}
+
+.cell_2_33 .parx {
+    border: 1px solid gray;
+    padding: 8px 8px 16px 8px;
+    font-size: 16px;
+    background-color: white;
+    z-index: 3;
+}
+
+.parx h6 {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.parx h4,
+.parx h6,
+.parx p {
+    margin: 8px;
+}
+
+.parx{
+    display: flex;
 }
