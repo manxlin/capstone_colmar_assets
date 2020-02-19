@@ -82,7 +82,7 @@ section div {
 
 
 .column_6 {
-    width: 60%;
+    width: 59%;
     height: 100%;
     display: block;
 }
@@ -121,6 +121,7 @@ section div {
     font-size: 24px;
 }
 
+
 .img_art_two {
     max-width: 100%;
     position: relative;
@@ -129,14 +130,13 @@ section div {
     padding-left: 24px;
     padding-bottom: 64px;
     padding-right: 10.5px;
-    border-right: gray 1px solid;
 }
 
 
 .text_down_art_two {
     position: relative;
     padding-left: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
 }
 
 .text_down_art_two h2 {
@@ -185,7 +185,7 @@ cite{
 }
 
 .third_row {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .orientation {
@@ -241,7 +241,6 @@ cite{
     float: left;
     height: auto;
     font-size: 24px;
-    top: 42px;
     z-index: 2;
 }
 
@@ -253,7 +252,7 @@ cite{
 
 
 .cell_2_33 {
-    padding: 32px;
+    padding: 16px 32px 32px 32px;
 }
 
 .cell_2_33 .parx {
@@ -277,4 +276,88 @@ cite{
 
 .parx{
     display: flex;
+}
+
+
+/* LEARN SOMETHING */
+.learn h1{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.learn {
+    padding: 8px;
+    background-color: lightgray;
+}
+
+
+
+
+/* ARTICLE FOUR */
+
+.article_four {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    top: auto;
+    text-align: left;
+    float: left;
+    font-size: 24px;
+}
+
+.column_6 video {
+    max-width: 100%;
+    position: relative;
+    top:0px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+    padding-right: 16px;
+    margin-right: 8px;
+}
+
+.two_rows {
+    position: relative;
+    vertical-align: middle;
+    padding: 16px;
+    margin: 8px;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+
+.firstt {
+    position: relative;
+    top: 8px;
+    padding: 8px;
+    display: inline-block;
+    background-color: lightgray;
+}
+
+.secondd {
+    padding: 8px;
+    display: inline-block;
+    top: 0px;
+}
+
+/*  FOOTER */
+
+.footer {
+    padding: 16px 24px;
+    border-top: 1px solid gray;
+    display: inline;
+}
+
+#oner {
+    padding-left: 24px;
+    float: left;
+}
+
+#twor {
+    float: right;
+    padding-right: 24px;
 }
