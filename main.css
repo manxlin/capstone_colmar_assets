@@ -1,5 +1,10 @@
 
-@media only screen and (max-width: 800px){
+html,
+body {
+    background-color: rgb(255, 250, 240);
+}
+
+@media only screen and (max-width: 700px){
 html, body {
     margin: 0;
     padding:0;
@@ -23,15 +28,14 @@ html, body {
         float: left;
         align-content: center;
         width: 15%;
-        padding: 16px;
+        padding: 5%;
         height: 32px;
     }
 
     .banner_mobile {
-        width: 98%;
+        width: 100%;
         position: relative;
         top: 64px;
-        padding: 0px 1% 0px 1%;
     }
 
     .banner_mobile img {
@@ -39,15 +43,98 @@ html, body {
         height: auto;
     }
 
+    .learn_mobile {
+        padding: 56px 16px 32px 16px;
+        background-color: lightgray;
+    }
+
+    .learn_mobile h1 {
+        text-align: center;      
+        font-size: 40px;
+    }
+
+    .learn_mobile p {
+        text-align: center;
+    }
+
+    .learn_mobile button {
+        text-align: center;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .row:after {
+        content:"";
+        display: table;
+        clear: both;
+     }
 
 
+     /* ORIENTATION MOBILE */
+
+     .orientation_mobile {
+         padding: 16px 16px 32px 16px;
+     }
+
+     .cell_mobile .parxx {
+         padding: 0px 16px 32px 16px;
+     }
+
+     .cell_mobile img{
+         width: 100%;
+         height: auto   
+     }
+
+     .cell_mobile h2,
+     .cell_mobile a,
+     .cell_mobile p {
+         text-align: left;
+     }
+     
+     /* START LEARNING */
+     .start_learning_mobile {
+         padding: 0px 16px 14px 16px;
+     }
+
+     .start_learning_mobile h1 {
+         text-align: center;
+         font-size: 40px;
+     }
+
+     .cell_mobile_two button{
+         width: 100%;
+         text-align: center;
+     }
+
+     .cell_mobile_two {
+        padding-bottom: 18px;
+     }
+
+     .thesis {
+         padding-bottom: 24px;
+     }
+
+     .thesis h1 {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 16px;
+     }
+
+     .thesis video {
+         width: 100%;
+     }
+
+     .footer p {
+         padding: 16px;
+         text-align: center;
+     }
 }
 
 
 
 /*HTML COMPLETE ELEMENT*/
 
-@media only screen and (min-width: 700px) and (max-width: 2000px){
+@media only screen and (min-width: 700px){
 
     html, body {
        margin: 0;
@@ -107,6 +194,8 @@ html, body {
    
     a {
        padding: 8px;
+       color: gray;
+       /*text-decoration: none;*/
     }
    
    
@@ -411,7 +500,16 @@ html, body {
    #twor {
        float: right;
        padding-right: 24px;
-   
    }
    
+
+   button {
+       width: 100%;
+       text-align: center;
+   }
+
+   .mobile {
+       display: none;
+   }
+
    }
